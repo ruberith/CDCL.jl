@@ -14,7 +14,7 @@ Check satisfiability (SAT) of a propositional logic formula in Conjunctive Norma
 
 ```
 julia> ]
-pkg> add https://github.com/ruberith/CDCL.jl
+pkg> add CDCL
 ```
 
 ## Usage
