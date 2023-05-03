@@ -138,7 +138,8 @@ function output_model(model::Model)::Nothing
         title="{yellow}C{/yellow}" *
               "{magenta}D{/magenta}" *
               "{blue}C{/blue}" *
-              "{cyan}L{/cyan}",
+              "{cyan}L{/cyan}" *
+              "sat",
         title_style="bold",
         subtitle="v0.1.0",
         subtitle_style="bold",

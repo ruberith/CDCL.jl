@@ -1,4 +1,4 @@
-module CDCL
+module CDCLsat
 
 export Model, Variable, Clause, @variable, @clause, solve!
 

@@ -1,4 +1,4 @@
-# CDCL
+# CDCLsat
 
 CDCL SAT Solver
 
@@ -14,7 +14,7 @@ Check satisfiability (SAT) of a propositional logic formula in Conjunctive Norma
 
 ```
 julia> ]
-pkg> add CDCL
+pkg> add CDCLsat
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Note that a model should not be reused.
 ## Example
 
 ```julia
-using CDCL
+using CDCLsat
 
 model = Model()
 
